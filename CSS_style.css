@@ -258,6 +258,7 @@ body
     
     padding: 2rem 5rem; 
 	margin: 25px;
+	margin-bottom:250px;
 	display: block; 
 	background-color: white; 
     font-family: 'Roboto', serif;
@@ -273,6 +274,9 @@ body
 	  
 	  
   }
+
+	  
+ 
   .int_fiche
   {
 	  
@@ -283,6 +287,7 @@ body
 		grid-row-gap: 20px;
 		align-items: center
   }
+ 
 .icone_contacts
 {
 	width: 100px;
@@ -296,3 +301,20 @@ body
 	font-family: Cooper;
 	text-decoration: underline;
 }
+#fichecontact2
+{
+	
+}
+
+
+@media (max-width: 1315px) {
+  #list_contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fiche {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
