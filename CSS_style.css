@@ -21,7 +21,7 @@
   max-width: 75%;
   width: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
+  
   color: #333;
   transition: transform 0.2s ease, background-color 0.3s ease;
   justify-content : center;
@@ -29,7 +29,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+  background-color: #a24F99;
+   color: white;
+	text-decoration: none;
   font-size: 2rem;
 }
 
@@ -37,7 +39,7 @@
   transform: scale(0.9);
   opacity: 0.6;
   transform: translate(-50%, -50%);
-  background-color: rgba(225, 225, 225, 0.95);
+   background-color: #ebd3db ;
 }
 
 .bouton h2 {
@@ -45,7 +47,15 @@
   font-size: 1.8rem;
   margin-bottom: 1rem;
   width: 5.0rem;   	
+	display:flex;
 	
+	font-family: Cooper;
+	font-size: 2rem;
+	text-decoration : none;
+	
+	
+	
+   transform: translate(-65%, -10%);
 }
 
 
@@ -54,10 +64,12 @@ h1
 	
 	font-family: Cooper;
 	font-size: 3rem;
-	text-decoration : underline;
+	text-decoration : none;
 	
 	text-align:center;
-	background-color: #fce4ec;     /* rose clair */
+	background-color: #a24F99;
+    color: white;
+	    /* rose clair */
     padding: 1rem;                 /* espace intérieur */
     border-radius: 20rem;           /* coins arrondis */
     width: 2.5rem;   	
@@ -77,21 +89,7 @@ h1
 }
 
 
-h2
-{
-	display:flex;
-	
-	font-family: Cooper;
-	font-size: 2rem;
-	text-decoration : underline;
-	
-	
-	
-   transform: translate(-65%, -10%);
-    
-  
 
-}
  @media (min-width: 400px) {
       
       .bouton {
@@ -242,4 +240,53 @@ body
   left: 12%	
 }
 
-  
+#list_contacts
+{
+	display: flex;
+	flex-direction: row;
+	
+}
+  .fiche
+  {
+	  max-width: 100%;     
+    
+    padding: 2rem 5rem; 
+	margin: 25px;
+	display: block; 
+	background-color: white; 
+    font-family: 'Roboto', serif;
+    color: #333;
+	
+	font-size: 154%;
+	
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  background-color: white;
+	  border-radius: 2rem;
+	  
+	  
+  }
+  .int_fiche
+  {
+	  
+	  display: grid;
+	  grid-template-columns: 100px 300px;
+		grid-template-rows: auto;
+		grid-column-gap: 37px;
+		grid-row-gap: 20px;
+		align-items: center
+  }
+.icone_contacts
+{
+	width: 100px;
+	max-width: 100%;
+	height: auto;
+	filter: invert(1);
+}
+.Nom_Contact
+{
+	font-size: 2.5rem;
+	font-family: Cooper;
+	text-decoration: underline;
+}
