@@ -113,7 +113,7 @@ h2
 body 
 {
 	
-	background-color: #fffbce;
+	background-color: #fff7c9;
 	margin: 0;
       padding: 0;
       
@@ -129,15 +129,15 @@ body
 	
 	font-family: Cooper;
 	font-size: 3rem;
-	text-decoration : underline;
+	text-decoration : none;
 	
 	text-align:center;
-	background-color: #fce4ec;     /* rose clair */
+	background-color: #a24F99;     /* rose clair */
     padding: 1rem;                 /* espace intérieur */
     border-radius: 20rem;           /* coins arrondis */
     width: 2.5rem;   	
 	min-width: 5.0rem;
-   
+   color:white;
                
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 	max-width: 75%;
@@ -159,9 +159,10 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-	dsqgbackground-color: #fce4ec;
+	dsqgbackground-color: #a24F99;
 	border-radius: 20rem;
     padding: 15px;
+	color: white;
 	width: 2.5rem;   	
 	min-width: 5.0rem;
 	max-width: 75%;
@@ -171,22 +172,21 @@ body
 
 .bouton_nav {
 	font-family: Cooper;
-	text-decoration : underline;
+	
     padding: 10px 20px;
-    background-color: #fce4ec;
-    color: Black;
-	 padding: 15px;
-    text-decoration: underline;
+    background-color: #a24F99;
+    color: white;
+	text-decoration: none;
     border-radius: 20rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     transition: background-color 0.3s;
 	
 }
 .bouton_nav:hover {
   transform: scale(0.9);
   opacity: 0.6;
- 
-  background-color: rgba(225, 225, 225, 0.95);
+  
+  background-color: #ebd3db ;
 }
 #presentation
 {
@@ -199,19 +199,47 @@ body
 }
 #content-pst
 {
-	max-width: 800px;      /* largeur maximale confortable à lire */
-    margin: 0 auto;        /* centre horizontalement */
-    padding: 20px;         /* un peu d’espace intérieur */
-    display: block; 
-	background-color: white; /* fond crème comme sur le site */
-    font-family: 'Georgia', serif;
+	max-width: 800px;     
+    margin: 0 auto;   
+    padding: 50px; 
+	margin: 25px;
+	margin-bottom: 300px;
+	display: block; 
+	background-color: white; 
+    font-family: 'Roboto', serif;
     color: #333;
+	
+	font-size: 154%;
 	border-radius: 2rem;
 }
-}
-.Paragraphe
+#ContentContacts
 {
+	display: flex;
+	flex-direction: column;
+    align-content: center;
+    align-items: center;
 	
+}
+#titrecontacts
+{
+	font-family: Cooper;
+	font-size: 3rem;
+	text-decoration : none;
+	color: white;
+	text-align:center;
+	background-color: #a24F99;     /* rose clair */
+    padding: 1rem;                 /* espace intérieur */
+    border-radius: 20rem;           /* coins arrondis */
+    width: 2.5rem;   	
+	min-width: 5.0rem;
+   
+               
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	max-width: 75%;
+    width: 100%;
+	
+  top:1%;
+  left: 12%	
 }
 
   
