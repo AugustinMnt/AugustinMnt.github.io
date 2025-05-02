@@ -306,7 +306,19 @@ body
 	transform: translate(0%, -40%);
 }
 
-
+#image
+{
+	padding: 100px;
+	margin:10px;
+	display: grid;
+	  grid-template-columns: 600px 600px;
+		grid-template-rows: auto;
+		grid-column-gap: 37px;
+		grid-row-gap: 20px;
+		align-items: center
+		
+	
+}
 @media (max-width: 1315px) {
   #list_contacts {
     flex-direction: column;
@@ -321,29 +333,7 @@ body
     width: 100%;
     margin-bottom: 2rem;
   }
-}
-#image
-{
-	padding: 100px;
-	margin:10px;
-	display: grid;
-	  grid-template-columns: 600px 600px;
-		grid-template-rows: auto;
-		grid-column-gap: 37px;
-		grid-row-gap: 20px;
-		align-items: center
-		
-	
-}
-.photos
-{
-	width: 600px;
-	max-width: 100%;
-	height: auto;
-	border-radius:2rem	
-}
-@media (max-width: 1080px) {
-	#image
+  #image
 	{
 	
 		display: flex;
@@ -352,4 +342,116 @@ body
 		align-items: center;
 	
 	}
+}
+
+.photos
+{
+	width: 600px;
+	max-width: 100%;
+	height: auto;
+	border-radius:2rem	
+}
+#titrephotos
+{
+	font-family: Cooper;
+	font-size: 3rem;
+	text-decoration : none;
+	
+	text-align:center;
+	background-color: #a24F99;     /* rose clair */
+    padding: 1rem;                 /* espace intérieur */
+    border-radius: 20rem;           /* coins arrondis */
+    width: 2.5rem;   	
+	min-width: 5.0rem;
+   color:white;
+               
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	max-width: 52.5%;
+    width: 100%;
+	
+  top:1%;
+  left: 12%
+}
+
+
+#titreinscription
+{
+	font-family: Cooper;
+	font-size: 3rem;
+	text-decoration : none;
+	
+	text-align:center;
+	background-color: #a24F99;     /* rose clair */
+    padding: 1rem;                 /* espace intérieur */
+    border-radius: 20rem;           /* coins arrondis */
+    width: 2.5rem;   	
+	min-width: 5.0rem;
+   color:white;
+               
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	max-width: 52.5%;
+    width: 100%;
+	
+  top:1%;
+  left: 12%
+	
+	
+}
+#titreinscription2
+{
+	font-family: Cooper;
+	font-size: 3rem;
+	text-decoration : none;
+	display:none;
+	text-align:center;
+	background-color: #a24F99;     /* rose clair */
+    padding: 1rem;                 /* espace intérieur */
+    border-radius: 20rem;           /* coins arrondis */
+    width: 2.5rem;   	
+	min-width: 5.0rem;
+   color:white;
+               
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	max-width: 52.5%;
+    width: 100%;
+	
+  top:1%;
+  left: 12%
+	
+	
+}
+#formulaire
+{
+	border-radius: 2.5rem;
+	
+	
+}
+@media (max-width: 1080px) {
+	
+	#bouton_hide
+	{
+		display:none
+	}
+	.bouton_nav
+	{
+		transform: scale(1.25);
+		
+	}
+	
+
+}
+
+@media (max-width: 1315px) {
+	#titrephotos{
+		max-width: 35%;
+	}
+	#titreinscription
+	{
+		display:none;
+	}
+	#titreinscription2
+	{
+		display:block;
+	}
+	
 }
